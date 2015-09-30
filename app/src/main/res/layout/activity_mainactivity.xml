@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <Button
+        android:id="@+id/activity_mainactivity_b_createuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/activity_mainactivity_createperson"/>
+
+    <TextView
+        android:id="@+id/activity_mainactivity_tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_mainactivity_b_createuser"/>
+
+    <TextView
+        android:id="@+id/activity_mainactivity_tv_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_mainactivity_tv_username"/>
+
+    <TextView
+        android:id="@+id/activity_mainactivity_tv_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_mainactivity_tv_birthday"/>
+
+    <TextView
+        android:id="@+id/activity_mainactivity_tv_expires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_mainactivity_tv_height"/>
+    <TextView
+        android:id="@+id/activity_mainactivity_tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_mainactivity_tv_expires"/>
+</RelativeLayout>

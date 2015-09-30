@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sugarorm example</string>
+    <string name="activity_mainactivity_createperson">Create Person / Load Person</string>
+    <string name="activity_mainactivity_personexists">Person already exists, showing info!</string>
+</resources>
